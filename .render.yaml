@@ -1,0 +1,5 @@
+services:
+  - type: web
+    env:
+      - key: RENDER_USE_BUN
+        value: "false"
